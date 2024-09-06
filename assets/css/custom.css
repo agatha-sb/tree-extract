@@ -77,8 +77,8 @@ body {
 }
 p {
   margin-bottom: 0;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 32px;
 }
 h1,
 h2,
@@ -682,6 +682,17 @@ section[class^="trex__"] {
 .trex__category-single:not(:first-child):hover .trex__category-title h4  {
   color: var(--clr-white);
 }
+.trex__category-single:last-child:hover {
+  background-color: #f8d2b3;
+  border-color: #f8d2b3;
+}
+.trex__category-single:last-child:hover .trex__category-icon {
+  background-color: var(--clr-accent);
+  color: var(--clr-white);
+}
+.trex__category-single:last-child:hover .trex__category-text p {
+  color: var(--clr-accent);
+}
 .trex__category-img {
   display: block;
   width: 115px;
@@ -785,6 +796,20 @@ section[class^="trex__"] {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.trex__wwd-right .trex__img img, .trex__wwd-left .trex__img img {
+  transform: translate3d(-30px, 0, 0);
+  object-fit: cover;
+  width: calc(100% + 30px) !important;
+  max-width: calc(100% + 30px) !important;
+  -webkit-transition: all 300ms cubic-bezier(1, 1.01, 0, -0.01);
+  transition: all 300ms cubic-bezier(1, 1.01, 0, -0.01);
+}
+.trex__wwd-right:hover .trex__img img, .trex__wwd-left:hover .trex__img img {
+  width: 100%;
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: all 300ms cubic-bezier(1, 1.01, 0, -0.01);
+  transition: all 300ms cubic-bezier(1, 1.01, 0, -0.01);
 }
 .trex__wwd-left .trex__content, .trex__wwd-right .trex__img {
   margin-bottom: 30px;
