@@ -405,11 +405,63 @@ section[class^="trex__"] {
   background-color: var(--clr-purple);
   border-radius: 50%;
 } */
-.swiper-wrapper {
+/* .swiper-wrapper {
   padding-bottom: 15px;
-}
+} */
 .swiper-horizontal > .swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
   bottom: 0px;
+}
+
+
+.trex__product-img-wrap {
+  position: relative;
+  overflow: hidden;
+}
+.trex__group-btn {
+  position: absolute;
+  display: flex;
+  gap: 6px;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.trex__group-btn-link {
+  display: inline-flex;
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+  background-color: var(--clr-white);
+  justify-content: center;
+  align-items: center;
+}
+.trex__group-btn-link img {
+  height: 25px;
+  object-fit: contain;
+}
+.trex__group-btn .trex__group-btn-item {
+  transform: translateY(70px);
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.trex__product-single:hover .trex__group-btn .trex__group-btn-item {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+}
+.trex__product-single:hover .trex__group-btn .trex__group-btn-item:nth-child(1) {
+  transition-delay: 0.1s;
+}
+.trex__product-single:hover .trex__group-btn .trex__group-btn-item:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.trex__product-single:hover .trex__group-btn .trex__group-btn-item:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.trex__group-btn-link:hover {
+  background-color: var(--clr-accent);
+}
+.trex__group-btn-link:hover img {
+  filter: invert(1);
 }
 /** =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ HOMEPAGE START =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ */
 /** ----------------------------
