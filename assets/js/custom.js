@@ -42,10 +42,14 @@ var heroSwiper = new Swiper(".trex__hero-swiper", {
   autoplay: {
     delay: 5000,
   },
-  pagination: {
-    el: ".swiper-pagination",
-    type: "progressbar",
+  navigation: {
+    nextEl: ".swiper-button-next-heroSW",
+    prevEl: ".swiper-button-prev-heroSW",
   },
+  // pagination: {
+  //   el: ".swiper-pagination",
+  //   type: "progressbar",
+  // },
   breakpoints: {
     0: {
       slidesPerView: 1

@@ -375,16 +375,36 @@ section[class^="trex__"] {
   margin-bottom: 16px;
 }
 [class^="swiper-button-"]::after {
-  content: '';
+  content: "";
   display: none;
 }
-.swiper-button-next, .swiper-button-prev {
+[class^="swiper-button-"] {
+  position: absolute;
+  background-color: var(--clr-accent);
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  border-radius: 50%;
+  color: var(--clr-white);
+}
+[class^="swiper-button-next-"] {
+  right: 15px;
+}
+[class^="swiper-button-prev-"] {
+  left: 15px;
+}
+/* .swiper-button-next, .swiper-button-prev {
   width: 35px;
   height: 35px;
   color: #fff;
   background-color: var(--clr-purple);
   border-radius: 50%;
-}
+} */
 .swiper-wrapper {
   padding-bottom: 15px;
 }
@@ -489,6 +509,28 @@ section[class^="trex__"] {
 }
 .trex__hero-desc {
   margin: 20px 0 20px;
+}
+.trex__hero-middle  {
+  position: relative;
+  z-index: 1;
+}
+.trex__hero-middle::after {
+  position: absolute;
+  content: "";
+  width: 108%;
+  height: 100%;
+  background-image: url("../images/hero-element-bg.png");
+  top: 0;
+  left: 0;
+  z-index: 0;
+  overflow: visible;
+  animation: falling 25s linear infinite;
+}
+@keyframes falling {
+  0%{top:-100%;}
+  25%{left: -9%;transform: skew(10deg, 10deg);}
+  75%{left: 25%;transform: skew(-15deg, 28deg);}
+  100%{top: 100%;left: 0;transform: skew(0deg, 0deg);}
 }
 /** ----------------------------
 *      Section: Hero End
@@ -686,6 +728,7 @@ section[class^="trex__"] {
   top: unset;
   margin: 0 auto;
   right: 0;
+  bottom: 0;
 }
 .trex__concern-img {
   border-radius: 5px;
@@ -866,6 +909,7 @@ section[class^="trex__"] {
   top: unset;
   margin: 0 auto;
   right: 0;
+  bottom: 0;
 }
 .trex__product-img {
   display: block;
@@ -987,6 +1031,7 @@ section[class^="trex__"] {
   width: 30%;
   margin: 0 auto;
   right: 0;
+  bottom: 0;
 }
 .trex__testimonials-features {
   margin-top: 50px;
