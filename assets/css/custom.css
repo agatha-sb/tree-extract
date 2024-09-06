@@ -481,6 +481,10 @@ section[class^="trex__"] {
   align-items: center;
   color: var(--clr-black);
 }
+.trex__header-list li a img {
+  height: 25px;
+  object-fit: contain;
+}
 .trex__header-list li a .icon {
   font-size: 13px;
   margin-right: 5px;
@@ -515,9 +519,17 @@ section[class^="trex__"] {
 .trex__header-account li a {
   font-size: 20px;
   color: var(--clr-black);
+  display: inline-block;
+}
+.trex__header-account li a img {
+  height: 25px;
+  object-fit: contain;
 }
 .trex__header-wrap {
   border-top: 1px solid #0000000d;
+}
+.trex__header-nav .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
 }
 /** ----------------------------
 *      Section: Header End

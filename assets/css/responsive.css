@@ -15,38 +15,86 @@
   .trex__heading {padding: 45px 0 0 0;margin-bottom: 24px;}
   .trex__heading span {font-size: 75px;line-height: 70px;}
   .trex__heading h3 {font-size: 42px;}
-
   .trex__category-title h4 {font-size: 20px;}
   .trex__category-text p {font-size: 20px;}
-
   .trex__concern-title h4 {font-size: 20px;}
-
+  .trex__picks-link h6 {font-size: 24px;}
   .trex__wwd-left {padding-right: 30px;}
   .trex__wwd-right {padding-left: 30px;}
-
   .trex__product-title h4 {font-size: 20px;}
   .trex__product-price span {font-size: 18px;line-height: 28px;margin-top: 4px;}
   .trex__rating {margin-top: 4px;}
-
   .trex__gentle-info h4 {font-size: 20px;margin-bottom: 12px;}
   .trex__gentle-single {padding: 0 12px;}
-
   .trex__productTab-wrap .nav-link {font-size: 18px;padding: 8px 35px;}
   .trex__productTab-wrap .nav-tabs {margin-bottom: 35px;gap: 12px;}
-
   .trex__testimonials-icon {width: 16%;margin-right: 12px;}
   .trex__testimonials-featTitle h6 {font-size: 20px;margin-bottom: 12px;}
 }
 @media (min-width: 1200px) and (max-width: 1300px){
   p {font-size: 16px;line-height: 28px;}
+  .trex__heading {padding: 45px 0 0 0;margin-bottom: 24px;}
+  .trex__heading span {font-size: 75px;line-height: 70px;}
+  .trex__heading h3 {font-size: 42px;}
+  .trex__category-title h4 {font-size: 20px;}
+  .trex__category-text p {font-size: 20px;}
+  .trex__concern-title h4 {font-size: 20px;}
+  .trex__picks-link h6 {font-size: 24px;}
+  .trex__wwd-left {padding-right: 30px;}
+  .trex__wwd-right {padding-left: 30px;}
+  .trex__product-title h4 {font-size: 20px;}
+  .trex__product-price span {font-size: 18px;line-height: 28px;margin-top: 4px;}
+  .trex__rating {margin-top: 4px;}
+  .trex__gentle-info h4 {font-size: 20px;margin-bottom: 12px;}
+  .trex__gentle-single {padding: 0 12px;}
+  .trex__productTab-wrap .nav-link {font-size: 18px;padding: 8px 35px;}
+  .trex__productTab-wrap .nav-tabs {margin-bottom: 35px;gap: 12px;}
+  .trex__testimonials-icon {width: 16%;margin-right: 12px;}
+  .trex__testimonials-featTitle h6 {font-size: 20px;margin-bottom: 12px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
   p {font-size: 16px;line-height: 28px;}
+  .trex__heading {padding: 45px 0 0 0;margin-bottom: 24px;}
+  .trex__heading span {font-size: 75px;line-height: 70px;}
+  .trex__heading h3 {font-size: 42px;}
+  .trex__category-title h4 {font-size: 20px;}
+  .trex__category-text p {font-size: 20px;}
+  .trex__concern-title h4 {font-size: 20px;}
+  .trex__picks-link h6 {font-size: 24px;}
+  .trex__wwd-left {padding-right: 30px;}
+  .trex__wwd-right {padding-left: 30px;}
+  .trex__product-title h4 {font-size: 20px;}
+  .trex__product-price span {font-size: 18px;line-height: 28px;margin-top: 4px;}
+  .trex__rating {margin-top: 4px;}
+  .trex__gentle-info h4 {font-size: 20px;margin-bottom: 12px;}
+  .trex__gentle-single {padding: 0 12px;}
+  .trex__productTab-wrap .nav-link {font-size: 18px;padding: 8px 35px;}
+  .trex__productTab-wrap .nav-tabs {margin-bottom: 35px;gap: 12px;}
+  .trex__testimonials-icon {width: 16%;margin-right: 12px;}
+  .trex__testimonials-featTitle h6 {font-size: 20px;margin-bottom: 12px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
   p {font-size: 16px;line-height: 28px;}
+  .trex__heading {padding: 45px 0 0 0;margin-bottom: 24px;}
+  .trex__heading span {font-size: 75px;line-height: 70px;}
+  .trex__heading h3 {font-size: 42px;}
+  .trex__category-title h4 {font-size: 20px;}
+  .trex__category-text p {font-size: 20px;}
+  .trex__concern-title h4 {font-size: 20px;}
+  .trex__picks-link h6 {font-size: 24px;}
+  .trex__wwd-left {padding-right: 30px;}
+  .trex__wwd-right {padding-left: 30px;}
+  .trex__product-title h4 {font-size: 20px;}
+  .trex__product-price span {font-size: 18px;line-height: 28px;margin-top: 4px;}
+  .trex__rating {margin-top: 4px;}
+  .trex__gentle-info h4 {font-size: 20px;margin-bottom: 12px;}
+  .trex__gentle-single {padding: 0 12px;}
+  .trex__productTab-wrap .nav-link {font-size: 18px;padding: 8px 35px;}
+  .trex__productTab-wrap .nav-tabs {margin-bottom: 35px;gap: 12px;}
+  .trex__testimonials-icon {width: 16%;margin-right: 12px;}
+  .trex__testimonials-featTitle h6 {font-size: 20px;margin-bottom: 12px;}
 }
 
 @media only screen and (min-width: 991.98px) {    
