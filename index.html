@@ -83,13 +83,7 @@
               <ul class="trex__header-list">
                 <li>
                   <a href="javascript:void(0)">
-                    <span class="icon"><i class="fa-solid fa-magnifying-glass"></i></span>
-                  </a>
-                </li>
-                <li>
-                  <a href="tel:+123-000-456789">
-                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
-                    <p>info@example123.com</p>
+                    <img src="./assets/images/icon-search.png" alt="...">
                   </a>
                 </li>
               </ul>
@@ -107,17 +101,17 @@
               <ul class="trex__header-account">
                 <li>
                   <a href="javascript:void(0)">
-                    <i class="fa-regular fa-user"></i>
+                    <img src="./assets/images/icon-user.png" alt="...">
                   </a>
                 </li>
                 <li>
                   <a href="javascript:void(0)">
-                    <i class="fa-regular fa-heart"></i>
+                    <img src="./assets/images/icon-wishlist.png" alt="...">
                   </a>
                 </li>
                 <li>
                   <a href="javascript:void(0)">
-                    <i class="fa-solid fa-cart-shopping"></i>
+                    <img src="./assets/images/icon-cart.png" alt="...">
                   </a>
                 </li>
               </ul>
@@ -150,6 +144,17 @@
                     <li class="nav-item active">
                       <a class="nav-link" href="#">FACE</a>
                     </li>
+                    <li class="nav-item dropdown"></li>
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        TREE EXTRACT
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Item 1</a></li>
+                        <li><a class="dropdown-item" href="#">Item 2</a></li>
+                        <li><a class="dropdown-item" href="#">Item 3</a></li>
+                      </ul>
+                    </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
@@ -168,17 +173,6 @@
                       <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Item 1</a></li>
                         <li><a class="dropdown-item" href="#">Item 2</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        True Mother Nature
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Item 1</a></li>
-                        <li><a class="dropdown-item" href="#">Item 2</a></li>
-                        <li><a class="dropdown-item" href="#">Item 3</a></li>
                       </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -269,10 +263,50 @@
                     </div>
                   </div>
                 </div>
+                <div class="swiper-slide">
+                  <div class="trex__hero-single">
+                    <div class="row g-0">
+                      <div class="col-lg-4">
+                        <div class="trex__hero-img">
+                          <img src="./assets/images/hero-image-2A.jpg" alt="...">
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="trex__hero-middle">
+                          <div class="trex__hero-content">
+                            <div class="trex__hero-sub-title">
+                              <h6>chemical - free</h6>
+                            </div>
+                            <div class="trex__hero-title">
+                              <h2>Moisturizing Hydration Face <span>Cream</span></h2>
+                            </div>
+                            <div class="trex__hero-desc">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                            </div>
+                            <div class="trex__hero-btn">
+                              <a href="#" class="trex-btn">
+                                EXPLORE MORE
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="trex__hero-img">
+                          <img src="./assets/images/hero-image-2B.jpg" alt="...">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="swiper-pagination"></div>
-              <div class="swiper-button-prev-heroSW"><img src="./assets/images/arrow-left.svg" alt="previous-icon"></div>
-              <div class="swiper-button-next-heroSW"><img src="./assets/images/arrow-right.svg" alt="next-icon"></div>
+              <div class="swiper-button-prev-heroSW">
+                <span><i class="fa-solid fa-chevron-left"></i></span>
+              </div>
+              <div class="swiper-button-next-heroSW">
+                <span><i class="fa-solid fa-chevron-right"></i></span>
+              </div>
             </div>
           </div>
         </div>
@@ -343,6 +377,11 @@
               </div>
             </div>
           </div>
+          <div class="trex__btn-wrap text-center">
+            <a href="#" class="trex-btn">
+              View all
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -398,7 +437,7 @@
                 <img src="./assets/images/category-img-5.jpg" alt="...">
               </div>
               <div class="trex__category-title">
-                <h4>Lorem ipsum</h4>
+                <h4>Travel Minis</h4>
               </div>
             </a>
             <a href="#" class="trex__category-single">
@@ -464,7 +503,7 @@
                     </a>
                     <div class="trex__concern-info">
                       <a href="#" class="trex__concern-title">
-                        <h4>Dull, Dry Skin</h4>
+                        <h4>Dull Skin</h4>
                       </a>
                     </div>
                   </div>
@@ -477,6 +516,18 @@
                     <div class="trex__concern-info">
                       <a href="#" class="trex__concern-title">
                         <h4>Sun Protection</h4>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="trex__concern-single">
+                    <a href="#" class="trex__concern-img">
+                      <img src="./assets/images/concern-img-5.jpg" alt="...">
+                    </a>
+                    <div class="trex__concern-info">
+                      <a href="#" class="trex__concern-title">
+                        <h4>Dry Skin</h4>
                       </a>
                     </div>
                   </div>
@@ -508,11 +559,11 @@
                 <div class="swiper-slide">
                   <div class="trex__concern-single">
                     <a href="#" class="trex__concern-img">
-                      <img src="./assets/images/concern-img-2.jpg" alt="...">
+                      <img src="./assets/images/concern-img-6.jpg" alt="...">
                     </a>
                     <div class="trex__concern-info">
                       <a href="#" class="trex__concern-title">
-                        <h4>Dull, Dry Skin</h4>
+                        <h4>Acne and Pigmented Skin</h4>
                       </a>
                     </div>
                   </div>
@@ -520,31 +571,23 @@
                 <div class="swiper-slide">
                   <div class="trex__concern-single">
                     <a href="#" class="trex__concern-img">
-                      <img src="./assets/images/concern-img-3.jpg" alt="...">
+                      <img src="./assets/images/concern-img-7.jpg" alt="...">
                     </a>
                     <div class="trex__concern-info">
                       <a href="#" class="trex__concern-title">
-                        <h4>Sun Protection</h4>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="trex__concern-single">
-                    <a href="#" class="trex__concern-img">
-                      <img src="./assets/images/concern-img-4.jpg" alt="...">
-                    </a>
-                    <div class="trex__concern-info">
-                      <a href="#" class="trex__concern-title">
-                        <h4>Hair Loss</h4>
+                        <h4>Fine Lines</h4>
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="swiper-pagination"></div>
-              <div class="swiper-button-prev-concernSW"><img src="./assets/images/arrow-left.svg" alt="previous-icon"></div>
-              <div class="swiper-button-next-concernSW"><img src="./assets/images/arrow-right.svg" alt="next-icon"></div>
+              <div class="swiper-button-prev-concernSW">
+                <span><i class="fa-solid fa-chevron-left"></i></span>
+              </div>
+              <div class="swiper-button-next-concernSW">
+                <span><i class="fa-solid fa-chevron-right"></i></span>
+              </div>
             </div>
           </div>
         </div>
@@ -598,9 +641,28 @@
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="trex__product-single">
-                    <a href="#" class="trex__product-img">
-                      <img src="./assets/images/product-bestsellers-1.jpg" alt="...">
-                    </a>
+                    <div class="trex__product-img-wrap">
+                      <a href="#" class="trex__product-img">
+                        <img src="./assets/images/product-bestsellers-1.jpg" alt="...">
+                      </a>
+                      <ul class="trex__group-btn">
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-wishlist.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-cart.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-quick-view.png" alt="...">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                     <div class="trex__product-info">
                       <a href="#" class="trex__product-title">
                         <h4>Lorem Ipsum epios dor</h4>
@@ -632,9 +694,28 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="trex__product-single">
-                    <a href="#" class="trex__product-img">
-                      <img src="./assets/images/product-bestsellers-2.jpg" alt="...">
-                    </a>
+                    <div class="trex__product-img-wrap">
+                      <a href="#" class="trex__product-img">
+                        <img src="./assets/images/product-bestsellers-2.jpg" alt="...">
+                      </a>
+                      <ul class="trex__group-btn">
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-wishlist.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-cart.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-quick-view.png" alt="...">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                     <div class="trex__product-info">
                       <a href="#" class="trex__product-title">
                         <h4>Lorem Ipsum epios dor</h4>
@@ -666,9 +747,28 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="trex__product-single">
-                    <a href="#" class="trex__product-img">
-                      <img src="./assets/images/product-bestsellers-3.jpg" alt="...">
-                    </a>
+                    <div class="trex__product-img-wrap">
+                      <a href="#" class="trex__product-img">
+                        <img src="./assets/images/product-bestsellers-3.jpg" alt="...">
+                      </a>
+                      <ul class="trex__group-btn">
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-wishlist.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-cart.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-quick-view.png" alt="...">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                     <div class="trex__product-info">
                       <a href="#" class="trex__product-title">
                         <h4>Lorem Ipsum epios dor</h4>
@@ -700,9 +800,28 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="trex__product-single">
-                    <a href="#" class="trex__product-img">
-                      <img src="./assets/images/product-bestsellers-4.jpg" alt="...">
-                    </a>
+                    <div class="trex__product-img-wrap">
+                      <a href="#" class="trex__product-img">
+                        <img src="./assets/images/product-bestsellers-4.jpg" alt="...">
+                      </a>
+                      <ul class="trex__group-btn">
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-wishlist.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-cart.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-quick-view.png" alt="...">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                     <div class="trex__product-info">
                       <a href="#" class="trex__product-title">
                         <h4>Lorem Ipsum epios dor</h4>
@@ -734,9 +853,28 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="trex__product-single">
-                    <a href="#" class="trex__product-img">
-                      <img src="./assets/images/product-bestsellers-1.jpg" alt="...">
-                    </a>
+                    <div class="trex__product-img-wrap">
+                      <a href="#" class="trex__product-img">
+                        <img src="./assets/images/product-bestsellers-1.jpg" alt="...">
+                      </a>
+                      <ul class="trex__group-btn">
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-wishlist.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-cart.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-quick-view.png" alt="...">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                     <div class="trex__product-info">
                       <a href="#" class="trex__product-title">
                         <h4>Lorem Ipsum epios dor</h4>
@@ -768,9 +906,28 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="trex__product-single">
-                    <a href="#" class="trex__product-img">
-                      <img src="./assets/images/product-bestsellers-2.jpg" alt="...">
-                    </a>
+                    <div class="trex__product-img-wrap">
+                      <a href="#" class="trex__product-img">
+                        <img src="./assets/images/product-bestsellers-2.jpg" alt="...">
+                      </a>
+                      <ul class="trex__group-btn">
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-wishlist.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-cart.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-quick-view.png" alt="...">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                     <div class="trex__product-info">
                       <a href="#" class="trex__product-title">
                         <h4>Lorem Ipsum epios dor</h4>
@@ -802,9 +959,28 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="trex__product-single">
-                    <a href="#" class="trex__product-img">
-                      <img src="./assets/images/product-bestsellers-3.jpg" alt="...">
-                    </a>
+                    <div class="trex__product-img-wrap">
+                      <a href="#" class="trex__product-img">
+                        <img src="./assets/images/product-bestsellers-3.jpg" alt="...">
+                      </a>
+                      <ul class="trex__group-btn">
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-wishlist.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-cart.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-quick-view.png" alt="...">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                     <div class="trex__product-info">
                       <a href="#" class="trex__product-title">
                         <h4>Lorem Ipsum epios dor</h4>
@@ -836,9 +1012,28 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="trex__product-single">
-                    <a href="#" class="trex__product-img">
-                      <img src="./assets/images/product-bestsellers-4.jpg" alt="...">
-                    </a>
+                    <div class="trex__product-img-wrap">
+                      <a href="#" class="trex__product-img">
+                        <img src="./assets/images/product-bestsellers-4.jpg" alt="...">
+                      </a>
+                      <ul class="trex__group-btn">
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-wishlist.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-cart.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-quick-view.png" alt="...">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                     <div class="trex__product-info">
                       <a href="#" class="trex__product-title">
                         <h4>Lorem Ipsum epios dor</h4>
@@ -870,8 +1065,12 @@
                 </div>
               </div>
               <div class="swiper-pagination"></div>
-              <div class="swiper-button-prev-productSW"><img src="./assets/images/arrow-left.svg" alt="previous-icon"></div>
-              <div class="swiper-button-next-productSW"><img src="./assets/images/arrow-right.svg" alt="next-icon"></div>
+              <div class="swiper-button-prev-productSW">
+                <span><i class="fa-solid fa-chevron-left"></i></span>
+              </div>
+              <div class="swiper-button-next-productSW">
+                <span><i class="fa-solid fa-chevron-right"></i></span>
+              </div>
             </div>
           </div>
         </div>
@@ -940,7 +1139,8 @@
           <div class="trex__top">
             <div class="trex__heading trex__heading-center">
               <span>Products</span>
-              <h3>our recent products</h3>
+              <h3>our exclusives</h3>
+              <p>Lorem ipsum dolor sit amet</p>
             </div>
           </div>
         </div>
@@ -951,7 +1151,7 @@
                 <a class="nav-link active" id="productTab-1" data-bs-toggle="tab" data-bs-target="#productPane-1" type="button" role="tab" aria-controls="productPane-1" aria-selected="true">Hair Care</a>
               </li>
               <li class="nav-item" role="presentation">
-                <a class="nav-link" id="productTab-2" data-bs-toggle="tab" data-bs-target="#productPane-2" type="button" role="tab" aria-controls="productPane-2" aria-selected="false">Skin Care</a>
+                <a class="nav-link" id="productTab-2" data-bs-toggle="tab" data-bs-target="#productPane-2" type="button" role="tab" aria-controls="productPane-2" aria-selected="false">Lip Care</a>
               </li>
               <li class="nav-item" role="presentation">
                 <a class="nav-link" id="productTab-3" data-bs-toggle="tab" data-bs-target="#productPane-3" type="button" role="tab" aria-controls="productPane-3" aria-selected="false">Eye Care</a>
@@ -969,9 +1169,28 @@
                   <div class="row gy-5">
                     <div class="col-lg-3">
                       <div class="trex__product-single">
-                        <a href="#" class="trex__product-img">
-                          <img src="./assets/images/product-tab-1.jpg" alt="...">
-                        </a>
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-1.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
                         <div class="trex__product-info">
                           <a href="#" class="trex__product-title">
                             <h4>Lorem Ipsum epios dor</h4>
@@ -1003,9 +1222,28 @@
                     </div>
                     <div class="col-lg-3">
                       <div class="trex__product-single">
-                        <a href="#" class="trex__product-img">
-                          <img src="./assets/images/product-tab-2.jpg" alt="...">
-                        </a>
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-2.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
                         <div class="trex__product-info">
                           <a href="#" class="trex__product-title">
                             <h4>Lorem Ipsum epios dor</h4>
@@ -1037,9 +1275,28 @@
                     </div>
                     <div class="col-lg-3">
                       <div class="trex__product-single">
-                        <a href="#" class="trex__product-img">
-                          <img src="./assets/images/product-tab-3.jpg" alt="...">
-                        </a>
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-3.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
                         <div class="trex__product-info">
                           <a href="#" class="trex__product-title">
                             <h4>Lorem Ipsum epios dor</h4>
@@ -1071,9 +1328,28 @@
                     </div>
                     <div class="col-lg-3">
                       <div class="trex__product-single">
-                        <a href="#" class="trex__product-img">
-                          <img src="./assets/images/product-tab-4.jpg" alt="...">
-                        </a>
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-4.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
                         <div class="trex__product-info">
                           <a href="#" class="trex__product-title">
                             <h4>Lorem Ipsum epios dor</h4>
@@ -1105,9 +1381,28 @@
                     </div>
                     <div class="col-lg-3">
                       <div class="trex__product-single">
-                        <a href="#" class="trex__product-img">
-                          <img src="./assets/images/product-tab-5.jpg" alt="...">
-                        </a>
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-5.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
                         <div class="trex__product-info">
                           <a href="#" class="trex__product-title">
                             <h4>Lorem Ipsum epios dor</h4>
@@ -1139,9 +1434,28 @@
                     </div>
                     <div class="col-lg-3">
                       <div class="trex__product-single">
-                        <a href="#" class="trex__product-img">
-                          <img src="./assets/images/product-tab-6.jpg" alt="...">
-                        </a>
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-6.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
                         <div class="trex__product-info">
                           <a href="#" class="trex__product-title">
                             <h4>Lorem Ipsum epios dor</h4>
@@ -1173,9 +1487,28 @@
                     </div>
                     <div class="col-lg-3">
                       <div class="trex__product-single">
-                        <a href="#" class="trex__product-img">
-                          <img src="./assets/images/product-tab-7.jpg" alt="...">
-                        </a>
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-7.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
                         <div class="trex__product-info">
                           <a href="#" class="trex__product-title">
                             <h4>Lorem Ipsum epios dor</h4>
@@ -1207,9 +1540,28 @@
                     </div>
                     <div class="col-lg-3">
                       <div class="trex__product-single">
-                        <a href="#" class="trex__product-img">
-                          <img src="./assets/images/product-tab-8.jpg" alt="...">
-                        </a>
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-8.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
                         <div class="trex__product-info">
                           <a href="#" class="trex__product-title">
                             <h4>Lorem Ipsum epios dor</h4>
@@ -1243,11 +1595,1725 @@
                 </div>
               </div>
               <div class="tab-pane fade" id="productPane-2" role="tabpanel" aria-labelledby="productTab-2">
-                ...
+                <div class="trex__product-pane">
+                  <div class="row gy-5">
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-5.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-6.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-7.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-8.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-1.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-2.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-3.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-4.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="tab-pane fade" id="productPane-3" role="tabpanel" aria-labelledby="productTab-3">...</div>
-              <div class="tab-pane fade" id="productPane-4" role="tabpanel" aria-labelledby="productTab-4">...</div>
-              <div class="tab-pane fade" id="productPane-5" role="tabpanel" aria-labelledby="productTab-5">...</div>
+              <div class="tab-pane fade" id="productPane-3" role="tabpanel" aria-labelledby="productTab-3">
+                <div class="trex__product-pane">
+                  <div class="row gy-5">
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-1.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-2.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-3.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-4.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-5.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-6.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-7.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-8.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="productPane-4" role="tabpanel" aria-labelledby="productTab-4">
+                <div class="trex__product-pane">
+                  <div class="row gy-5">
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-5.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-6.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-7.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-8.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-1.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-2.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-3.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-4.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="productPane-5" role="tabpanel" aria-labelledby="productTab-5">
+                <div class="trex__product-pane">
+                  <div class="row gy-5">
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-1.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-2.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-3.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-4.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-5.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-6.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-7.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="trex__product-single">
+                        <div class="trex__product-img-wrap">
+                          <a href="#" class="trex__product-img">
+                            <img src="./assets/images/product-tab-8.jpg" alt="...">
+                          </a>
+                          <ul class="trex__group-btn">
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-wishlist.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-cart.png" alt="...">
+                              </a>
+                            </li>
+                            <li class="trex__group-btn-item">
+                              <a href="#" class="trex__group-btn-link">
+                                <img src="./assets/images/icon-quick-view.png" alt="...">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="trex__product-info">
+                          <a href="#" class="trex__product-title">
+                            <h4>Lorem Ipsum epios dor</h4>
+                          </a>
+                          <div class="trex__product-price">
+                            <span>
+                              ₹750
+                            </span>
+                          </div>
+                          <ul class="trex__rating">
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                            <li>
+                              <span><i class="fa-solid fa-star"></i></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -1255,10 +3321,17 @@
     </div>
   </section>
   <section class="trex__video">
-    <div class="trex-bgImg overlay">
-      <img src="./assets/images/video-bg.jpg" alt="...">
+    <!--  -->
+
+    <div id="trexVideoWrap" class="trex__video-wrap">
+      <video id="trexVideoItem" class="trex__video-item">
+        <source src="./assets/images/tree-extract-video.mp4" id="video-source" type="video/mp4">
+      </video>
+    
+      <a id="trexPlayBtn" class="trex__play-btn" type="button"><span class="play-icon">Play</span></a>
+    
     </div>
-    <div class="trex__video-wrap">
+    <!-- <div class="trex__video-wrap">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -1268,7 +3341,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
   <section class="trex__product trex__care trex-py">
     <div class="container">
@@ -1278,6 +3351,7 @@
             <div class="trex__heading trex__heading-center">
               <span>Diamond Collection</span>
               <h3>Personal care products</h3>
+              <p>Lorem ipsum dolor sit amet</p>
             </div>
           </div>
         </div>
@@ -1287,9 +3361,81 @@
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="trex__product-single">
-                    <a href="#" class="trex__product-img">
-                      <img src="./assets/images/personal-care-1.jpg" alt="...">
-                    </a>
+                    <div class="trex__product-img-wrap">
+                      <a href="#" class="trex__product-img">
+                        <img src="./assets/images/personal-care-1.jpg" alt="...">
+                      </a>
+                      <ul class="trex__group-btn">
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-wishlist.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-cart.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-quick-view.png" alt="...">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="trex__product-info">
+                      <a href="#" class="trex__product-title">
+                        <h4>Lorem Ipsum epios dor</h4>
+                      </a>
+                      <div class="trex__product-price">
+                        <span>
+                          ₹750
+                        </span>
+                      </div>
+                      <ul class="trex__rating">
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="trex__product-single">
+                    <div class="trex__product-img-wrap">
+                      <a href="#" class="trex__product-img">
+                        <img src="./assets/images/personal-care-2.jpg" alt="...">
+                      </a>
+                      <ul class="trex__group-btn">
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-wishlist.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-cart.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-quick-view.png" alt="...">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                     <div class="trex__product-info">
                       <a href="#" class="trex__product-title">
                         <h4>Lorem Ipsum epios dor</h4>
@@ -1322,8 +3468,188 @@
                 <div class="swiper-slide">
                   <div class="trex__product-single">
                     <a href="#" class="trex__product-img">
-                      <img src="./assets/images/personal-care-2.jpg" alt="...">
                     </a>
+                    <div class="trex__product-img-wrap">
+                      <a href="#" class="trex__product-img">
+                        <img src="./assets/images/personal-care-3.jpg" alt="...">
+                      </a>
+                      <ul class="trex__group-btn">
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-wishlist.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-cart.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-quick-view.png" alt="...">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="trex__product-info">
+                      <a href="#" class="trex__product-title">
+                        <h4>Lorem Ipsum epios dor</h4>
+                      </a>
+                      <div class="trex__product-price">
+                        <span>
+                          ₹750
+                        </span>
+                      </div>
+                      <ul class="trex__rating">
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="trex__product-single">
+                    <div class="trex__product-img-wrap">
+                      <a href="#" class="trex__product-img">
+                        <img src="./assets/images/personal-care-4.jpg" alt="...">
+                      </a>
+                      <ul class="trex__group-btn">
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-wishlist.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-cart.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-quick-view.png" alt="...">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="trex__product-info">
+                      <a href="#" class="trex__product-title">
+                        <h4>Lorem Ipsum epios dor</h4>
+                      </a>
+                      <div class="trex__product-price">
+                        <span>
+                          ₹750
+                        </span>
+                      </div>
+                      <ul class="trex__rating">
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="trex__product-single">
+                    <div class="trex__product-img-wrap">
+                      <a href="#" class="trex__product-img">
+                        <img src="./assets/images/personal-care-1.jpg" alt="...">
+                      </a>
+                      <ul class="trex__group-btn">
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-wishlist.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-cart.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-quick-view.png" alt="...">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="trex__product-info">
+                      <a href="#" class="trex__product-title">
+                        <h4>Lorem Ipsum epios dor</h4>
+                      </a>
+                      <div class="trex__product-price">
+                        <span>
+                          ₹750
+                        </span>
+                      </div>
+                      <ul class="trex__rating">
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                        <li>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="trex__product-single">
+                    <div class="trex__product-img-wrap">
+                      <a href="#" class="trex__product-img">
+                        <img src="./assets/images/personal-care-2.jpg" alt="...">
+                      </a>
+                      <ul class="trex__group-btn">
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-wishlist.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-cart.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-quick-view.png" alt="...">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                     <div class="trex__product-info">
                       <a href="#" class="trex__product-title">
                         <h4>Lorem Ipsum epios dor</h4>
@@ -1356,8 +3682,29 @@
                 <div class="swiper-slide">
                   <div class="trex__product-single">
                     <a href="#" class="trex__product-img">
-                      <img src="./assets/images/personal-care-3.jpg" alt="...">
                     </a>
+                    <div class="trex__product-img-wrap">
+                      <a href="#" class="trex__product-img">
+                        <img src="./assets/images/personal-care-3.jpg" alt="...">
+                      </a>
+                      <ul class="trex__group-btn">
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-wishlist.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-cart.png" alt="...">
+                          </a>
+                        </li>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-quick-view.png" alt="...">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                     <div class="trex__product-info">
                       <a href="#" class="trex__product-title">
                         <h4>Lorem Ipsum epios dor</h4>
@@ -1389,145 +3736,28 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="trex__product-single">
-                    <a href="#" class="trex__product-img">
-                      <img src="./assets/images/personal-care-4.jpg" alt="...">
-                    </a>
-                    <div class="trex__product-info">
-                      <a href="#" class="trex__product-title">
-                        <h4>Lorem Ipsum epios dor</h4>
+                    <div class="trex__product-img-wrap">
+                      <a href="#" class="trex__product-img">
+                        <img src="./assets/images/personal-care-4.jpg" alt="...">
                       </a>
-                      <div class="trex__product-price">
-                        <span>
-                          ₹750
-                        </span>
-                      </div>
-                      <ul class="trex__rating">
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
+                      <ul class="trex__group-btn">
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-wishlist.png" alt="...">
+                          </a>
                         </li>
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-cart.png" alt="...">
+                          </a>
                         </li>
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
-                        </li>
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
-                        </li>
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
+                        <li class="trex__group-btn-item">
+                          <a href="#" class="trex__group-btn-link">
+                            <img src="./assets/images/icon-quick-view.png" alt="...">
+                          </a>
                         </li>
                       </ul>
                     </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="trex__product-single">
-                    <a href="#" class="trex__product-img">
-                      <img src="./assets/images/personal-care-1.jpg" alt="...">
-                    </a>
-                    <div class="trex__product-info">
-                      <a href="#" class="trex__product-title">
-                        <h4>Lorem Ipsum epios dor</h4>
-                      </a>
-                      <div class="trex__product-price">
-                        <span>
-                          ₹750
-                        </span>
-                      </div>
-                      <ul class="trex__rating">
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
-                        </li>
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
-                        </li>
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
-                        </li>
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
-                        </li>
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="trex__product-single">
-                    <a href="#" class="trex__product-img">
-                      <img src="./assets/images/personal-care-2.jpg" alt="...">
-                    </a>
-                    <div class="trex__product-info">
-                      <a href="#" class="trex__product-title">
-                        <h4>Lorem Ipsum epios dor</h4>
-                      </a>
-                      <div class="trex__product-price">
-                        <span>
-                          ₹750
-                        </span>
-                      </div>
-                      <ul class="trex__rating">
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
-                        </li>
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
-                        </li>
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
-                        </li>
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
-                        </li>
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="trex__product-single">
-                    <a href="#" class="trex__product-img">
-                      <img src="./assets/images/personal-care-3.jpg" alt="...">
-                    </a>
-                    <div class="trex__product-info">
-                      <a href="#" class="trex__product-title">
-                        <h4>Lorem Ipsum epios dor</h4>
-                      </a>
-                      <div class="trex__product-price">
-                        <span>
-                          ₹750
-                        </span>
-                      </div>
-                      <ul class="trex__rating">
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
-                        </li>
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
-                        </li>
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
-                        </li>
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
-                        </li>
-                        <li>
-                          <span><i class="fa-solid fa-star"></i></span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="trex__product-single">
-                    <a href="#" class="trex__product-img">
-                      <img src="./assets/images/personal-care-4.jpg" alt="...">
-                    </a>
                     <div class="trex__product-info">
                       <a href="#" class="trex__product-title">
                         <h4>Lorem Ipsum epios dor</h4>
@@ -1559,8 +3789,12 @@
                 </div>
               </div>
               <div class="swiper-pagination"></div>
-              <div class="swiper-button-prev-productSW"><img src="./assets/images/arrow-left.svg" alt="previous-icon"></div>
-              <div class="swiper-button-next-productSW"><img src="./assets/images/arrow-right.svg" alt="next-icon"></div>
+              <div class="swiper-button-prev-productSW">
+                <span><i class="fa-solid fa-chevron-left"></i></span>
+              </div>
+              <div class="swiper-button-next-productSW">
+                <span><i class="fa-solid fa-chevron-right"></i></span>
+              </div>
             </div>
           </div>
         </div>
@@ -1774,8 +4008,12 @@
                   </div>
                 </div>
                 <div class="swiper-pagination"></div>
-                <div class="swiper-button-prev-testimonialsSW"><img src="./assets/images/arrow-left.svg" alt="previous-icon"></div>
-                <div class="swiper-button-next-testimonialsSW"><img src="./assets/images/arrow-right.svg" alt="next-icon"></div>
+                <div class="swiper-button-prev-testimonialsSW">
+                  <span><i class="fa-solid fa-chevron-left"></i></span>
+                </div>
+                <div class="swiper-button-next-testimonialsSW">
+                  <span><i class="fa-solid fa-chevron-right"></i></span>
+                </div>
               </div>
             </div>
           </div>
@@ -1931,7 +4169,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <div class="trex__footer-newsletter">
                   <input type="email" class="form-control" placeholder="Your Email">
-                  <input type="button" value="Submit">
+                  <input type="button" class="trex-btn" value="Submit">
                 </div>
               </div>
             </div>
