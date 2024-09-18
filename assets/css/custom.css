@@ -1300,6 +1300,9 @@ section[class^="trex__"] {
   color: var(--clr-white);
   opacity: 0.8;
 }
+.trex__footer-newsletter .trex-btn:hover {
+  background-color: var(--clr-white);
+}
 .trex__footer-content p {
   font-size: 16px;
   line-height: 26px;
