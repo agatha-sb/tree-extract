@@ -144,6 +144,17 @@
                     <li class="nav-item active">
                       <a class="nav-link" href="#">FACE</a>
                     </li>
+                    <li class="nav-item dropdown"></li>
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        TREE EXTRACT
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Item 1</a></li>
+                        <li><a class="dropdown-item" href="#">Item 2</a></li>
+                        <li><a class="dropdown-item" href="#">Item 3</a></li>
+                      </ul>
+                    </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
@@ -162,17 +173,6 @@
                       <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Item 1</a></li>
                         <li><a class="dropdown-item" href="#">Item 2</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Tree extract
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Item 1</a></li>
-                        <li><a class="dropdown-item" href="#">Item 2</a></li>
-                        <li><a class="dropdown-item" href="#">Item 3</a></li>
                       </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -376,6 +376,11 @@
                 </div>
               </div>
             </div>
+          </div>
+          <div class="trex__btn-wrap text-center">
+            <a href="#" class="trex-btn">
+              View all
+            </a>
           </div>
         </div>
       </div>
@@ -3316,10 +3321,17 @@
     </div>
   </section>
   <section class="trex__video">
-    <div class="trex-bgImg overlay">
-      <img src="./assets/images/video-bg.jpg" alt="...">
+    <!--  -->
+
+    <div id="trexVideoWrap" class="trex__video-wrap">
+      <video id="trexVideoItem" class="trex__video-item">
+        <source src="./assets/images/tree-extract-video.mp4" id="video-source" type="video/mp4">
+      </video>
+    
+      <a id="trexPlayBtn" class="trex__play-btn" type="button"><span class="play-icon">Play</span></a>
+    
     </div>
-    <div class="trex__video-wrap">
+    <!-- <div class="trex__video-wrap">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -3329,7 +3341,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
   <section class="trex__product trex__care trex-py">
     <div class="container">
