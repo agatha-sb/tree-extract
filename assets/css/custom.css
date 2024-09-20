@@ -1368,3 +1368,43 @@ section[class^="trex__"] {
 *      Section: Footer End
 **  --------------------------*/
 /** =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ HOMEPAGE END =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ */
+
+/** ----------------------------
+*  Section: Innner Banner Start
+**  --------------------------*/
+.trex__inner-banner .trex-bgImg {
+  position: relative;
+}
+.trex__inner-breadcrumb {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.trex__page-title h1 {
+  font-size: 50px;
+  color: var(--clr-accent);
+  letter-spacing: 0.5px;
+}
+.trex__inner-breadcrumb .breadcrumb {
+  margin-bottom: 0;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin-top: 10px;
+}
+.trex__inner-breadcrumb .breadcrumb .breadcrumb-item a {
+  color: var(--clr-accent);
+}
+.trex__inner-breadcrumb .breadcrumb .breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+.trex__inner-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  content: "-";
+}
+/** ----------------------------
+*  Section: Innner Banner End
+**  --------------------------*/
