@@ -1568,3 +1568,64 @@ section[class^="trex__"] {
 .trex__inner-ingredients-title {
   margin: 16px 0 8px;
 }
+
+
+
+.trex__inner-contact-box {
+  padding: 35px 25px;
+  border: 1px solid #B8B8B8;
+  border-radius: 16px;
+  width: 100%;
+}
+.trex__inner-contact-icon img {
+  height: 50px;
+}
+.trex__inner-contact-content h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--clr-accent);
+  line-height: 28px;
+}
+.trex__inner-contact-content a, .trex__inner-contact-content p {
+  display: inline-block;
+  font-size: 16px;
+  color: var(--clr-black);
+  line-height: 28px;
+}
+
+
+.trex__inner-form-wrap > :not(:last-child) {
+  margin-bottom: 24px;
+}
+.form-group {
+  margin-bottom: 18px;
+}
+.form-control {
+  border: 1px solid #B0B0B0;
+  border-radius: 6px;
+  padding: 15px 30px;
+}
+.form-control::placeholder {
+  color: #B0B0B0;
+}
+textarea.form-control {
+  min-height: 150px !important;
+  resize: none;
+}
+.form-group.form-button {
+  margin-bottom: 0;
+}
+.form-group.form-button .trex-btn {
+  border: none;
+}
+.form-group.form-button .trex-btn:hover {
+  background-color: rgb(248, 210, 179);
+}
+.trex__inner-map iframe {
+  width: 100%;
+  height: 100%;
+  filter: brightness( 95% ) contrast( 116% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+}
+.trex__inner-map {
+  height: 100%;
+}
