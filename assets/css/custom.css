@@ -133,17 +133,8 @@ section[class^="trex__"] {
 }
 
 /* Theme Classes */
-.bg-dark-gradient {
-  background-image: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.29) 100%);
-}
-.bg-dark-gradient__bottom  {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.42) 100%);
-}
-.bg-theme-gold {
-  background: linear-gradient(to top left, #223d786b 0%, var(--clr-gold) 100%);
-}
-.bg-theme-blue {
-  background: linear-gradient(to top left, rgb(148, 213, 247) 0%, #223d78 100%);
+.trex__bg-light {
+  background-color: #F9F9F9;
 }
 .trex-texture__bg::before {
   position: absolute;
@@ -161,7 +152,7 @@ section[class^="trex__"] {
 }
 
 /* Custom Properties */
-.trex-py {
+.custom-pad {
   padding: 60px 0;
 }
 .trex-btn {
@@ -216,22 +207,21 @@ section[class^="trex__"] {
   color: var(--clr-accent);
 }
 .trex-btn__light {
-  background-color: var(--clr-gold) !important;
+  background-color: var(--clr-white) !important;
   background-image: unset;
+  color: var(--clr-accent);
+}
+.trex-btn__light:not(.trex-btn__link)::before {
+  background-color: var(--clr-accent);
 }
 .trex-btn__light:hover {
-  background-color: #E9DBFD !important;
-  background-image: unset;
+  color: var(--clr-white);
 }
-.trex__heading__white .trex__heading__abs {
-  color: #f7f7f726;
+.trex__heading-white h3 {
+  color: var(--clr-white) !important;
 }
-.trex__heading__white h6 {
-  color: #fff !important;
-}
-.trex__heading:not(.text-center) .trex__heading__abs {
-  left: -10px;
-  transform: translateY(-50%);
+.trex__heading-white span {
+  color: #acacac !important;
 }
 .trex-btn__link {
   background: transparent !important;
@@ -703,6 +693,9 @@ section[class^="trex__"] {
   font-size: 25px;
   padding-top: 6px;
 }
+.trex__picks .trex-btn::before {
+  background-color: #f8d2b3;
+}
 /** ----------------------------
 *      Section: Picks End
 **  --------------------------*/
@@ -715,7 +708,7 @@ section[class^="trex__"] {
   color: var(--clr-accent);
 }
 .trex__content > :not(:last-child) {
-  margin-bottom: 28px;
+  margin-bottom: 16px;
 }
 .trex__category {
   background-color: #F9F9F9;
@@ -875,10 +868,12 @@ section[class^="trex__"] {
 .trex__wwd-right {
   padding-left: 50px;
 }
-.trex__img {
+.trex__wwd .trex__img {
   width: 100%;
   aspect-ratio: 1;
-  border-radius: 5px;
+}
+.trex__img {
+  border-radius: 15px;
   overflow: hidden;
 }
 .trex__img img {
@@ -1300,6 +1295,9 @@ section[class^="trex__"] {
   color: var(--clr-white);
   opacity: 0.8;
 }
+.trex__footer-newsletter .trex-btn:hover {
+  background-color: var(--clr-white);
+}
 .trex__footer-content p {
   font-size: 16px;
   line-height: 26px;
@@ -1362,3 +1360,211 @@ section[class^="trex__"] {
 *      Section: Footer End
 **  --------------------------*/
 /** =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ HOMEPAGE END =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ */
+
+/** ----------------------------
+*  Section: Innner Banner Start
+**  --------------------------*/
+.trex__inner-banner .trex-bgImg {
+  position: relative;
+}
+.trex__inner-breadcrumb {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.trex__page-title h1 {
+  font-size: 50px;
+  color: var(--clr-accent);
+  letter-spacing: 0.5px;
+}
+.trex__inner-breadcrumb .breadcrumb {
+  margin-bottom: 0;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin-top: 10px;
+}
+.trex__inner-breadcrumb .breadcrumb .breadcrumb-item a {
+  color: var(--clr-accent);
+}
+.trex__inner-breadcrumb .breadcrumb .breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+.trex__inner-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  content: "-";
+}
+/** ----------------------------
+*  Section: Innner Banner End
+**  --------------------------*/
+/** ----------------------------
+*  Section: About Page Start
+**  --------------------------*/
+.trex__inner-about::before {
+  position: absolute;
+  content: '';
+  background-image: url('../images/about-page-pattern-left.png');
+  left: 0;
+  width: 300px;
+  height: 470px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 100px;  
+}
+.trex__inner-about::after {
+  position: absolute;
+  content: '';
+  background-image: url('../images/about-page-pattern-right.png');
+  right: 0;
+  width: 300px;
+  height: 470px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 100px;  
+}
+.trex__inner-about-images {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 25px;
+  width: 42%;
+  padding-left: 170px;
+  position: relative;
+  margin: 50px auto 0;
+}
+.img-collage {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.img-collage.img-collage-1 {
+  width: 70%;
+  aspect-ratio: 1;
+  border-top-right-radius: 200px;
+}
+.img-collage.img-collage-2 {
+  width: 100%;
+  aspect-ratio: 1;
+  border-top-left-radius: 150px;
+}
+.img-collage.img-collage-3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  aspect-ratio: 3/5;
+  border-top-left-radius: 200px;
+  z-index: 2;
+}
+.img-collage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/** ----------------------------
+*  Section: About Page End
+**  --------------------------*/
+/** ----------------------------
+*  Section: CTA Content Start
+**  --------------------------*/
+.trex__inner-ctaContent .trex__img {
+  aspect-ratio: unset;
+  border-radius: 15px;
+}
+.trex__inner-ctaContent-left {
+  padding-right: 50px;
+  gap: 25px;
+}
+.trex__inner-ctaContent-right > :not(:last-child) {
+  margin-bottom: 24px;
+}
+/** ----------------------------
+*  Section: CTA Content End
+**  --------------------------*/
+/** ----------------------------
+* Section: Inner Features Start
+**  --------------------------*/
+.trex__inner-features-list {
+  margin-top: 32px;
+}
+.trex__inner-features-list > :not(:last-child) {
+  margin-bottom: 20px;
+}
+.feature__box-content h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--clr-accent);
+  margin-bottom: 6px;
+}
+.trex__inner-features-right .trex__img img {
+  object-fit: contain;
+}
+.trex__inner-features-right .trex__img {
+  aspect-ratio: unset;
+  padding: 15% 0 15% 20%;
+  position: relative;
+}
+.trex__inner-features-right {
+  padding-left: 150px;
+}
+.trex__inner-features-right .trex__img::before {
+  position: absolute;
+  content: "";
+  width: 70%;
+  height: 100%;
+  border: 15px solid var(--clr-accent);
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+/** ----------------------------
+* Section: Inner Features End
+**  --------------------------*/
+/** ----------------------------
+*    Section: Inner TX Start
+**  --------------------------*/
+.trex__inner-tree-left > :not(:last-child), .trex__inner-tree-right > :not(:last-child) {
+  margin-bottom: 20px;
+}
+.trex__img-wrap {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.trex__img-wrap >  * {
+  flex: 0 0 auto;
+  width: 48%;
+}
+.trex__img-wrap >  *:first-child {
+  flex: 0 0 auto;
+  width: 100%;
+}
+/** ----------------------------
+*     Section: Inner TX End
+**  --------------------------*/
+
+.trex__inner-ctaContent .trex-bgImg.overlay::before {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0));
+  opacity: 0.6;
+}
+
+
+
+
+.trex__inner-ingredients-single {
+  padding: 16px;
+  border: 1px solid #B8B8B8;
+  border-radius: 16px;
+}
+.trex__inner-ingredients-title h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #363636;
+  line-height: 28px;
+}
+.trex__inner-ingredients-title {
+  margin: 16px 0 8px;
+}
