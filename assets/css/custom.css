@@ -207,22 +207,21 @@ section[class^="trex__"] {
   color: var(--clr-accent);
 }
 .trex-btn__light {
-  background-color: var(--clr-gold) !important;
+  background-color: var(--clr-white) !important;
   background-image: unset;
+  color: var(--clr-accent);
+}
+.trex-btn__light:not(.trex-btn__link)::before {
+  background-color: var(--clr-accent);
 }
 .trex-btn__light:hover {
-  background-color: #E9DBFD !important;
-  background-image: unset;
+  color: var(--clr-white);
 }
-.trex__heading__white .trex__heading__abs {
-  color: #f7f7f726;
+.trex__heading-white h3 {
+  color: var(--clr-white) !important;
 }
-.trex__heading__white h6 {
-  color: #fff !important;
-}
-.trex__heading:not(.text-center) .trex__heading__abs {
-  left: -10px;
-  transform: translateY(-50%);
+.trex__heading-white span {
+  color: #acacac !important;
 }
 .trex-btn__link {
   background: transparent !important;
@@ -709,7 +708,7 @@ section[class^="trex__"] {
   color: var(--clr-accent);
 }
 .trex__content > :not(:last-child) {
-  margin-bottom: 28px;
+  margin-bottom: 16px;
 }
 .trex__category {
   background-color: #F9F9F9;
@@ -869,10 +868,12 @@ section[class^="trex__"] {
 .trex__wwd-right {
   padding-left: 50px;
 }
-.trex__img {
+.trex__wwd .trex__img {
   width: 100%;
   aspect-ratio: 1;
-  border-radius: 5px;
+}
+.trex__img {
+  border-radius: 15px;
   overflow: hidden;
 }
 .trex__img img {
@@ -1522,3 +1523,48 @@ section[class^="trex__"] {
 /** ----------------------------
 * Section: Inner Features End
 **  --------------------------*/
+/** ----------------------------
+*    Section: Inner TX Start
+**  --------------------------*/
+.trex__inner-tree-left > :not(:last-child), .trex__inner-tree-right > :not(:last-child) {
+  margin-bottom: 20px;
+}
+.trex__img-wrap {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.trex__img-wrap >  * {
+  flex: 0 0 auto;
+  width: 48%;
+}
+.trex__img-wrap >  *:first-child {
+  flex: 0 0 auto;
+  width: 100%;
+}
+/** ----------------------------
+*     Section: Inner TX End
+**  --------------------------*/
+
+.trex__inner-ctaContent .trex-bgImg.overlay::before {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0));
+  opacity: 0.6;
+}
+
+
+
+
+.trex__inner-ingredients-single {
+  padding: 16px;
+  border: 1px solid #B8B8B8;
+  border-radius: 16px;
+}
+.trex__inner-ingredients-title h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #363636;
+  line-height: 28px;
+}
+.trex__inner-ingredients-title {
+  margin: 16px 0 8px;
+}
