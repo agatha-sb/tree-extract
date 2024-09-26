@@ -10,9 +10,11 @@
   <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link rel="stylesheet" href="./assets/css/fancybox.min.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/easyzoom@2.5.2/css/easyzoom.css">
   <link rel="stylesheet" href="./assets/css/custom.css">
   <link rel="stylesheet" href="./assets/css/responsive.css">
-  <title>Contact Us - Tree Extract</title>
+  <title>Product Details - Tree Extract</title>
 </head>
 
 <body>
@@ -219,169 +221,69 @@
       </div>
     </div>
   </header>
-  <section class="trex__inner-banner">
-    <div class="trex-bgImg">
-      <img src="./assets/images/inner-banner-bg.jpg" alt="...">
-    </div>
+  <section class="trex__inner-banner trex__inner-product-banner">
     <div class="trex__inner-breadcrumb">
-      <div class="trex__page-title">
-        <h1>Contact Us</h1>
-      </div>
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="#">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+          <li class="breadcrumb-item active" aria-current="page">Product Details</li>
         </ol>
       </nav>
     </div>
   </section>
-  <section class="trex__inner-contact custom-pad pb-0">
+  <section class="trex__product-details custom-pad">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 mx-auto">
-          <div class="trex__inner-contact-wrap">
+        <div class="col-lg-10 mx-auto">
+          <div class="trex__product-details-wrap">
             <div class="row">
-              <div class="col-lg-4">
-                <div class="trex__inner-contact-box">
-                  <div class="d-flex align-items-center">
-                    <div class="trex__inner-contact-icon">
-                      <img src="./assets/images/contact-call.png" alt="...">
-                    </div>
-                    <div class="trex__inner-contact-content flex-grow-1 ms-3">
-                      <h5>Phone</h5>
-                      <a href="tel:+112323489">
-                        +1 123 234 89
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="trex__inner-contact-box">
-                  <div class="d-flex align-items-center">
-                    <div class="trex__inner-contact-icon">
-                      <img src="./assets/images/contact-location.png" alt="...">
-                    </div>
-                    <div class="trex__inner-contact-content flex-grow-1 ms-3">
-                      <h5>Location</h5>
-                      <p>76 East Houston Street New York City</p>
+              <div class="col-lg-6">
+                <div class="trex__product-details-featured d-flex">
+                  <div class="swiper trex__product-thumb-swiper" thumbsSlider>
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="trex__product-feat-thumb">
+                          <img src="./assets/images/product-details-img-1.jpg">
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="trex__product-feat-thumb">
+                          <img src="./assets/images/product-details-img-2.jpg">
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="trex__product-feat-thumb">
+                          <img src="./assets/images/product-details-img-3.jpg">
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="trex__inner-contact-box">
-                  <div class="d-flex align-items-center">
-                    <div class="trex__inner-contact-icon">
-                      <img src="./assets/images/contact-email.png" alt="...">
+                  <div class="swiper trex__product-feat-swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="trex__product-feat-main easyzoom easyzoom--overlay">
+                          <a href="https://glowing.g5plus.net/elementor/wp-content/uploads/2021/10/product-11-3.jpg">
+                            <img src="https://glowing.g5plus.net/elementor/wp-content/uploads/2021/10/product-11-3.jpg" alt="">
+                          </a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="trex__product-feat-main easyzoom easyzoom--overlay">
+                          <img src="./assets/images/product-details-img-2.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="trex__product-feat-main easyzoom easyzoom--overlay">
+                          <img src="./assets/images/product-details-img-3.jpg" alt="">
+                        </div>
+                      </div>
                     </div>
-                    <div class="trex__inner-contact-content flex-grow-1 ms-3">
-                      <h5>Email</h5>
-                      <a href="mail:contact@example.com">
-                        contact@example.com
-                      </a>
+                    <div class="swiper-button-prev-proFeatSW">
+                      <span><i class="fa-solid fa-chevron-left"></i></span>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="trex__inner-git custom-pad">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="trex__inner-form-wrap">
-            <div class="trex__heading">
-              <span>Contact Us</span>
-              <h3>Ask us anything</h3>
-            </div>
-            <div class="trex__content">
-              <p>Tulla at volutpat diam ut venenatis tellus in. Tellus molestie nunc non blandit massa enim nec dui nunc. Elementum eu facilisis sed odio morbi quis commodo odio aenean. Ultrices mi tempus imperdiet nulla malesuada.</p>
-            </div>
-            <div class="trex__inner-form">
-              <form>
-                <div class="row gx-3">
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Name">
+                    <div class="swiper-button-next-proFeatSW">
+                      <span><i class="fa-solid fa-chevron-right"></i></span>
                     </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <input type="email" class="form-control" placeholder="Email">
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="form-group">
-                      <textarea class="form-control" placeholder="Message"></textarea>
-                    </div>
-                  </div>
-                  <div class="col-sm-12">
-                    <div class="form-group form-button">
-                      <input class="trex-btn" type="button" value="Submit">
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="trex__inner-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.268834262781!2d88.43111807223976!3d22.569046487803355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02773831f240b3%3A0x664e32b394c0eca1!2sKreative%20Machinez!5e0!3m2!1sen!2sin!4v1727163815775!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="trex__inner-ship trex__bg-light custom-pad">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="trex__top">
-            <div class="trex__heading trex__heading-center">
-              <span>Natural Herbs</span>
-              <h3>WHAT’S INSIDE</h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-12">
-          <div class="trex__testimonials-features mt-0">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="trex__testimonials-featItem">
-                  <div class="trex__testimonials-icon">
-                    <img src="./assets/images/features-icon-1.svg" alt="...">
-                  </div>
-                  <div class="trex__testimonials-featTitle">
-                    <h6>24h service</h6>
-                    <p>Lorem ipsum dolor sit elit amet, consec ad adipis pro dolorem ad.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="trex__testimonials-featItem">
-                  <div class="trex__testimonials-icon">
-                    <img src="./assets/images/features-icon-2.svg" alt="...">
-                  </div>
-                  <div class="trex__testimonials-featTitle">
-                    <h6>Easy returns</h6>
-                    <p>Lorem ipsum dolor sit elit amet, consec ad adipis pro dolorem ad.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="trex__testimonials-featItem">
-                  <div class="trex__testimonials-icon">
-                    <img src="./assets/images/features-icon-3.svg" alt="...">
-                  </div>
-                  <div class="trex__testimonials-featTitle">
-                    <h6>order tracking</h6>
-                    <p>Lorem ipsum dolor sit elit amet, consec ad adipis pro dolorem ad.</p>
                   </div>
                 </div>
               </div>
@@ -391,6 +293,7 @@
       </div>
     </div>
   </section>
+
   <footer class="trex__footer">
     <div class="trex__footer-main">
       <div class="container">
@@ -562,6 +465,8 @@
   <script src="./assets/js/magnific-popup.min.js"></script>
   <script src="./assets/js/swiper-bundle.min.js"></script>
   <script src="./assets/js/fancybox.umd.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/easyzoom@2.5.2/dist/easyzoom.js"></script>
   <script src="./assets/js/custom.js"></script>
 </body>
 

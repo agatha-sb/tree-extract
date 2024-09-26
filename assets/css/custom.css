@@ -217,6 +217,15 @@ section[class^="trex__"] {
 .trex-btn__light:hover {
   color: var(--clr-white);
 }
+.trex-btn__small {
+  padding: 10px 17px;
+  letter-spacing: 1.5px;
+  font-size: 12px;
+}
+.trex-btn__color {
+  background-color: #f8d2b3;
+  color: var(--clr-accent);
+}
 .trex__heading-white h3 {
   color: var(--clr-white) !important;
 }
@@ -1570,7 +1579,9 @@ section[class^="trex__"] {
 }
 
 
-
+/** ----------------------------
+* Section: Inner Contact Start
+**  --------------------------*/
 .trex__inner-contact-box {
   padding: 35px 25px;
   border: 1px solid #B8B8B8;
@@ -1592,8 +1603,6 @@ section[class^="trex__"] {
   color: var(--clr-black);
   line-height: 28px;
 }
-
-
 .trex__inner-form-wrap > :not(:last-child) {
   margin-bottom: 24px;
 }
@@ -1621,11 +1630,355 @@ textarea.form-control {
 .form-group.form-button .trex-btn:hover {
   background-color: rgb(248, 210, 179);
 }
+.trex__inner-map {
+  height: 100%;
+}
 .trex__inner-map iframe {
   width: 100%;
   height: 100%;
   filter: brightness( 95% ) contrast( 116% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
 }
-.trex__inner-map {
-  height: 100%;
+/** ----------------------------
+* Section: Inner Contact End
+**  --------------------------*/
+/** ----------------------------
+* Section: Inner Shop Start
+**  --------------------------*/
+.trex__shop-sidebar {
+  border-right: 1px solid #ECECEC !important;
 }
+.trex__shop-filter-sub {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 20px 11px 0;
+  align-items: center;
+}
+.trex__shop-filter-clear a {
+  font-size: 16px;
+  color: var(--clr-accent);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.trex__shop-filter-box {
+  padding: 14px 20px 14px 0;
+  border: none;
+  border-top: 1px solid #ECECEC !important;
+}
+.trex__shop-sidebar h5, .trex__shop-filter-button {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 0;
+  color: var(--clr-accent);
+}
+
+.trex__shop-filter-body {
+  padding: 14px 0 0;
+}
+.trex__shop-filter-list:has(:nth-child(7)) {
+  height: 190px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: var(--clr-accent) #eaeaea;
+}
+.trex__shop-filter-list li {
+  display: flex;
+  align-items: center;
+}
+.trex__shop-filter-list li + li {
+  margin-top: 10px;
+}
+.trex__shop-filter-list li label {
+  font-size: 14px;
+  color: #989898;
+  margin-left: 3px;
+  text-transform: uppercase;
+}
+.trex__shop-filter-button:not(.collapsed) {
+  background-color: transparent;
+  box-shadow: unset;
+}
+
+/* .price-range-slider {
+  width: 100%;
+  float: left;
+  padding: 10px 20px;
+} */
+.price-range-slider .range-value {
+  margin: 0;
+}
+.price-range-slider .range-value input {
+  width: 100%;
+  background: none;
+  color: #989898;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: none;
+  border: none;
+  margin: 10px auto 0;
+  text-align: center;
+  outline: none;
+}
+.price-range-slider .range-bar {
+  border: none;
+  background: #ccc;
+  height: 6px;
+  width: 85%;
+  margin-left: 10px;
+}
+.price-range-slider .range-bar .ui-slider-range {
+  background: var(--clr-accent);
+}
+.price-range-slider .range-bar .ui-slider-handle {
+  border: none;
+  border-radius: 25px;
+  background: #ccc;
+  border: 2px solid var(--clr-accent);
+  height: 17px;
+  width: 17px;
+  top: 50% ;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.price-range-slider .range-bar .ui-slider-handle + span {
+  background: var(--clr-accent);
+}
+.ui-state-active, .ui-state-hover  {
+  background-color: var(--clr-accent) !important;
+}
+
+
+
+
+
+input[type="checkbox"] {
+  /*! vertical-align: top; */
+  position: relative;
+  -moz-appearance: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  border-radius: 0;
+  width: 20px;
+  margin-right: 10px;
+  /*! top: 3px; */
+  height: 20px;
+}
+input[type="checkbox"]::before {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #bfbfbf;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+input[type="checkbox"]::after {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/check.svg);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(0);
+  transition: all 0.1s ease-in-out;
+}
+input[type="checkbox"]:checked::after {
+  background-color: var(--clr-accent);
+  transform: scale(1);
+  transition: all 0.1s ease-in-out;
+}
+
+
+.trex__product-info .trex__btn-wrap {
+  margin-top: 15px;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.trex__shop-category-wrap {
+  gap: 16px;
+  align-items: center;
+}
+.trex__shop-category-single {
+  display: inline-block;
+  text-align: center;
+}
+.trex__shop-category-single h5 {
+  font-size: 16px;
+  color: var(--clr-black);
+  margin-top: 16px;
+}
+.trex__product-list-view {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.trex__product-list-view .trex__product-img-wrap {
+  width: 35%;
+}
+.trex__product-list-view .trex__product-info {
+  text-align: left;
+}
+.trex__product-list-view .trex__rating {justify-content: flex-start;}
+.trex__product-list-view .trex__product-info .trex__btn-wrap {justify-content: flex-start;}
+
+.trex__shop-grid {
+  display: flex;
+  gap: 5px;
+}
+.trex__shop-grid li {
+  background-color: var(--clr-accent);
+  padding: 6px;
+}
+.trex__shop-grid li svg rect {
+  fill: var(--clr-white);
+}
+
+.trex__shop-products {
+  margin-top: 15px;
+}
+.trex__shop-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0 8px;
+  border-bottom: 1px solid #ececec;
+}
+.trex__shop-toolbar-sort {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 0 0 auto;
+  width: 70%;
+  justify-content: flex-end;
+}
+.trex__shop-toolbar-results p {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--clr-black);
+}
+
+.trex__shop-toolbar-sort form label {
+  font-size: 15px;
+  color: #979797;
+  font-weight: 600;
+  text-transform: capitalize;
+  width: 90px;
+}
+.trex__shop-toolbar-sort form {
+  display: flex;
+  align-items: center;
+}
+.trex__shop-toolbar-sort form .form-select {
+  padding: 0 20px 0 0;
+  border: none;
+  font-size: 15px;
+  color: var(--clr-accent);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.trex__shop-selected-filters {
+  padding: 14px 0;
+  border-bottom: 1px solid #eee;
+}
+.trex__shop-selected-filters ul {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.trex__shop-selected-filters li {
+  font-size: 13px;
+  text-transform: uppercase;
+  border: 1px solid #d9d9d9;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 5px 18px 5px 10px;
+  color: #575757;
+  font-weight: 500;
+  position: relative;
+}
+.trex__shop-selected-filters .remove-filter {
+  border: none;
+}
+.trex__shop-selected-filters .remove-filter::before {
+  content: '\f00d';
+  font-family: "FontAwesome";
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  color: #666;
+}
+/** ----------------------------
+* Section: Inner Shop End
+**  --------------------------*/
+/** ----------------------------
+* Section: Product Details Start
+**  --------------------------*/
+.trex__inner-product-banner {
+  background-color: #F9F9F9;
+  padding: 12px 0;
+}
+.trex__inner-product-banner .trex__inner-breadcrumb {
+  position: relative;
+  top: unset;
+  transform: unset;
+  left: unset;
+}
+.trex__inner-product-banner .trex__inner-breadcrumb .breadcrumb {
+  letter-spacing: 0;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+
+.trex__product-details-featured {
+  gap: 20px;
+}
+.trex__product-feat-main img, .trex__product-thumb-swiper img {
+  width: 100%;
+}
+.trex__product-thumb-swiper {
+  height: auto !important;
+  flex: 0 0 auto;
+  width: 100px;
+}
+.trex__product-thumb-swiper .swiper-slide {
+  height: auto !important;
+}
+.trex__product-feat-main {
+  border-radius: 5px;
+  overflow: hidden;
+}
+.trex__product-feat-thumb {
+  border-radius: 5px;
+  overflow: hidden;
+}
+.easyzoom {
+  float: left;
+}
+.easyzoom img {
+  display: block;
+}
+
+
+/* Shrink wrap strategy 2 */
+.easyzoom {
+  display: inline-block;
+}
+.easyzoom img {
+  vertical-align: bottom;
+}
+/* .easyzoom-flyout img {
+	min-width: 100%;
+	min-height: 100%;
+} */
+/** ----------------------------
+* Section: Product Details End
+**  --------------------------*/
