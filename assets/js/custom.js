@@ -133,6 +133,32 @@ var productSwiper = new Swiper(".trex__product-swiper", {
 });
 
 
+var thumbSwiper = new Swiper(".trex__product-thumb-swiper", {
+  spaceBetween: 20,
+  slidesPerView: 4,
+  freeMode: true,
+  watchSlidesProgress: true,
+  breakpoints: {
+    480: {
+      direction: "vertical",
+      slidesPerView: 3
+    }
+  }
+});
+var proFeatSwiper2 = new Swiper(".trex__product-feat-swiper", {
+  spaceBetween: 20,
+  navigation: {
+    nextEl: ".swiper-button-next-proFeatSW",
+    prevEl: ".swiper-button-prev-proFeatSW",
+  },
+  thumbs: {
+    swiper: thumbSwiper,
+  },
+});
+
+
+var $easyzoom = $('.easyzoom').easyZoom();
+
 // ************************************************* //
 // * +++++++++++ Magnific Popup ++++++++++++ * //
 // ************************************************* //
@@ -162,7 +188,57 @@ $('.popup-youtube').magnificPopup({
   }
 });
 
+$(function() {
+	$( "#slider-range" ).slider({
+	  range: true,
+	  min: 0,
+	  max: 5999,
+	  values: [ 0, 1599 ],
+	  slide: function( event, ui ) {
+		$( "#amount" ).val( "₹" + ui.values[ 0 ] + " - ₹" + ui.values[ 1 ] );
+	  }
+	});
+	$( "#amount" ).val( "₹" + $( "#slider-range" ).slider( "values", 0 ) +
+	  " - ₹" + $( "#slider-range" ).slider( "values", 1 ) );
+});
 
+$(document).ready(function() {
+  $('.trex__shop-grid li').click(function() {
+    var gridVal = $(this).data('val');
+    $('.trex__shop-products .row').removeClass(function(index, className) {
+      return (className.match(/(^|\s)row-cols-\S+/g) || []).join(' ');
+    });
+    $('.trex__shop-products .row').addClass('row-cols-' + gridVal);
+    if (gridVal === 1) {
+      $('.trex__product-single').addClass('trex__product-list-view');
+    } else {
+      $('.trex__product-single').removeClass('trex__product-list-view');
+    }
+  });
+});
+
+$(document).ready(function() {
+  $('.trex__shop-filter-list li').click(function(event) {
+    event.preventDefault();
+    var checkbox = $(this).find('input[type="checkbox"]');
+    var label = $(this).find('label').text().trim();
+    checkbox.prop('checked', !checkbox.prop('checked'));
+    var value = checkbox.val();
+
+    if (checkbox.is(':checked')) {
+      $('#selectedFilters').append(
+        '<li data-value="'+ value +'">' + label + ' <button class="remove-filter"></button></li>'
+      );
+    } else {
+      $('#selectedFilters li[data-value="'+ value +'"]').remove();
+    }
+  });
+  $('#selectedFilters').on('click', '.remove-filter', function() {
+    var value = $(this).parent().data('value');
+    $('.trex__shop-filter-list input[value="'+ value +'"]').prop('checked', false);
+    $(this).parent().remove();
+  });
+});
 
 
 const videoContainer = document.getElementById("trexVideoWrap");
