@@ -226,6 +226,15 @@ section[class^="trex__"] {
   background-color: #f8d2b3;
   color: var(--clr-accent);
 }
+.trex-btn__hover-color::before {
+  background-color: #f8d2b3 !important;
+}
+.trex-btn__color::before {
+  background-color: var(--clr-accent) !important;
+}
+.trex-btn__color:hover {
+  color: var(--clr-white);
+}
 .trex__heading-white h3 {
   color: var(--clr-white) !important;
 }
@@ -1882,7 +1891,7 @@ input[type="checkbox"]:checked::after {
   text-transform: capitalize;
 }
 
-.trex__shop-selected-filters {
+.trex__shop-selected-filters:has(li) {
   padding: 14px 0;
   border-bottom: 1px solid #eee;
 }
