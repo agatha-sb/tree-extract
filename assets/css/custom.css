@@ -1979,6 +1979,155 @@ input[type="checkbox"]:checked::after {
 	min-width: 100%;
 	min-height: 100%;
 } */
+
+
+.trex__product-title-v2 h4 {
+  font-size: 32px;
+  color: var(--clr-accent);
+  line-height: 40px;
+}
+.trex__product-price-v2 .price span {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--clr-black);
+  display: inline-flex;
+}
+.trex__product-rating-v2 {
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+.trex__quantity-box input[type="number"] {
+  appearance: textfield;
+}
+.trex__quantity-input {
+  max-width: 65px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  text-align: center;
+  color: var(--clr-accent);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 8px;
+}
+
+.trex__quantity-box {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #acacac;
+}
+.trex__quantity-subtract {
+  padding: 8px 16px;
+  border-right: 1px solid #acacac;
+  color: var(--clr-accent);
+  height: 46px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+.trex__quantity-add {
+  padding: 8px 16px;
+  border-left: 1px solid #acacac;
+  color: var(--clr-accent);
+  height: 46px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.trex__product-meta label {
+  margin: 0 10px 0 0;
+  font-weight: 600;
+  min-width: 80px;
+  font-size: 14px;
+  color: var(--clr-black);
+  text-transform: capitalize;
+}
+.trex__product-share label {
+  margin: 0 10px 0 0;
+  font-weight: 600;
+  min-width: 80px;
+  font-size: 14px;
+  color: var(--clr-black);
+  text-transform: capitalize;
+}
+.trex__product-add-to-card-quantity {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 30px;
+}
+.trex__product-add-to-wishlist {
+  padding: 20px 0 20px;
+  border-bottom: 1px solid #d7d7d7;
+  margin-bottom: 20px;
+}
+.trex__product-add-to-wishlist a img {
+  height: 20px;
+}
+.trex__product-add-to-wishlist a {
+  display: flex;
+  align-items: center;
+}
+.trex__product-add-to-wishlist a p {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 5px;
+  color: var(--clr-black);
+  text-transform: capitalize;
+}
+
+.trex__product-socials {
+  display: inline-flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.trex__product-meta > * {
+  font-size: 14px;
+  font-weight: 600;
+}
+.trex__product-meta a {
+  color: #898989;
+}
+.trex__product-meta ul li + li {
+  margin-top: 6px;
+}
+.trex__product-share {
+  margin-top: 6px;
+}
+
+.trex__product-socials li a {
+  font-size: 14px;
+  color: #898989;
+}
+.trex__product-details-tabs {
+  margin-top: 40px;
+  padding-top: 40px;
+  border-top: 1px solid #e6e6e6;
+}
+.trex__product-details-tabs .nav-tabs {
+  border: none;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+.trex__product-details-tabs .nav-tabs .nav-link {
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  padding: 10px 32px;
+  color: #acacac;
+  font-size: 15px;
+  font-family: var(--ff-body);
+  font-style: italic;
+  font-weight: 600;
+}
+.trex__product-details-tabs .nav-tabs .nav-link.active {
+  border-color: var(--clr-accent);
+  color: var(--clr-accent);
+}
 /** ----------------------------
 * Section: Product Details End
 **  --------------------------*/

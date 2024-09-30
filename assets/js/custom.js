@@ -157,7 +157,7 @@ var proFeatSwiper2 = new Swiper(".trex__product-feat-swiper", {
 });
 
 
-var $easyzoom = $('.easyzoom').easyZoom();
+// var $easyzoom = $('.easyzoom').easyZoom();
 
 // ************************************************* //
 // * +++++++++++ Magnific Popup ++++++++++++ * //
@@ -237,6 +237,22 @@ $(document).ready(function() {
     var value = $(this).parent().data('value');
     $('.trex__shop-filter-list input[value="'+ value +'"]').prop('checked', false);
     $(this).parent().remove();
+  });
+});
+
+
+$(document).ready(function() {
+  $('.trex__quantity-add').click(function() {
+    var input = $(this).siblings('.trex__quantity-input');
+    input.val(parseInt(input.val()) + 1);
+  });
+
+  $('.trex__quantity-subtract').click(function() {
+    var input = $(this).siblings('.trex__quantity-input');
+    var currentValue = parseInt(input.val());
+    if (currentValue > 1) {
+      input.val(currentValue - 1);
+    }
   });
 });
 
